@@ -21,7 +21,7 @@ const GMapGeoCode = ({
     const config = {
       method: 'get',
       maxBodyLength: Infinity,
-      url: `https://motorcycle-carpark-availability-sg.netlify.app/3001/search`,
+      url: `http://motorcycle-avail-backend-server.onrender.com:10000//search`,
       params: { address: userInput },
     };
 
