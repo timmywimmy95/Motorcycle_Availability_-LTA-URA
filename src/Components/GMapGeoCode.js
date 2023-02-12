@@ -21,7 +21,7 @@ const GMapGeoCode = ({
     const config = {
       method: 'get',
       maxBodyLength: Infinity,
-      url: `http://motorcycle-avail-backend-server.onrender.com:10000//search`,
+      url: `http://motorcycle-avail-backend-server.onrender.com:10000/search`,
       params: { address: userInput },
     };
 
