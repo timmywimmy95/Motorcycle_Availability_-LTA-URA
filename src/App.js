@@ -44,7 +44,7 @@ function App() {
   // console.log(HDBcarparksData, 'HDB');
 
   useEffect(() => {
-    fetch('http://motorcycle-avail-backend-server.onrender.com:10000/')
+    fetch('https://us-central1-motorcycle-avail.cloudfunctions.net/app/')
       .then((res) => res.json())
       .then((data) => setLTAMallData(data.value));
   }, []);
